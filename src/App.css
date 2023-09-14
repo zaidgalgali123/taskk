@@ -1,0 +1,40 @@
+/* Example CSS Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #333;
+}
+
+.cards {
+  display: flex;
+}
+
+
+.card {
+  background-color: purple;
+  width: 250px;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.card button {
+  padding: 10px 12px;
+  background-color: white;
+  color: black;
+  border: none;
+}
